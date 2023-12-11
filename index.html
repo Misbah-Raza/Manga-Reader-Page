@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Manga Reading Page</title>
+  <style>
+    body {
+      text-align: center;
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 5px;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 575px;
+      margin-bottom: 5px;
+    }
+
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .chapter-button {
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <h1>Chapter 1101: Dear Bonney</h1>
+  <img src="https://i.imgur.com/G0wStU6.png" alt="Cover Image">
+  <img src="https://i.imgur.com/XmTtyBV.jpeg" alt="Chapter 1" class="chapter-image">
+  <img src="https://i.imgur.com/8z5yFRO.jpeg" alt="Chapter 2" class="chapter-image">
+  <img src="https://i.imgur.com/1XgfcdY.jpeg" alt="Chapter 3" class="chapter-image">
+  <img src="https://i.imgur.com/ER1neji.jpeg" alt="Chapter 4" class="chapter-image">
+  <img src="https://i.imgur.com/UdGr5sO.jpeg" alt="Chapter 5" class="chapter-image">
+  <img src="https://i.imgur.com/vj2hr2y.jpeg" alt="Chapter 6" class="chapter-image">
+
+  <div class="navigation">
+    <div class="chapter-button" onclick="loadPreviousChapter()">Previous Chapter</div>
+    <div class="chapter-button" onclick="loadNextChapter()">Next Chapter</div>
+   
+  </div>
+
+  <p>Click on the images to navigate between chapters.</p>
+
+</body>
+
+</html>
